@@ -35,7 +35,7 @@ function getAccessToken () {
 
 function getCurrentUser() {
   const acc = getAccessInfo()
-  if (!acc) return Promise.resolve(null)
+  if (!acc) return Promise.resolve({status: 'info', message: 'not auth yet'})
   return fetch('https://api.github.com/user', {
     headers: {
       'Accept': 'application/json',
