@@ -4,8 +4,8 @@ function getGithubAuthUrl(scope) {
   const authUrl = 'https://github.com/login/oauth/authorize'
   const params = new URLSearchParams()
   const query = {
-    client_id: 'b377427312560921a071',
-    redirect_uri: 'https://downgit.evecalm.com/auth.html',
+    client_id: 'd8d36704730f971d59a6',
+    redirect_uri: 'https://downgit.weflare.win/auth.html',
     scope: scope,
     state: getRandomState()
   };
