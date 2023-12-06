@@ -2,8 +2,8 @@
 
 const APP_KEYS = {
   downGit: {
-    client_id: 'd8d36704730f971d59a6',
-    client_secret: '58ec91185d46c7d6d97acff06c9135866b384b33'
+    client_id: '',
+    client_secret: ''
   },
 }
 
