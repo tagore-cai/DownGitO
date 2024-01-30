@@ -38,7 +38,7 @@ homeModule.config([
 
                     var templateUrl = "https?://github.com/.+/.+";
                     var downloadUrlInfix = "#/home?url=";
-                    var downloadUrlPrefix = "https://downgit.evecalm.com/"+downloadUrlInfix;
+                    var downloadUrlPrefix = "https://downgit.weflare.win/"+downloadUrlInfix;
 
                     if ($routeParams.url) {
                         $scope.url = $routeParams.url;
